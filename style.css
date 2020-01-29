@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+ body {
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* стили для шапки*/
+header {
+	display: flex;/*почему-бы и нет, удобно центрировать*/
+	align-items: center;/*а теперь все элементы выравниваем по центру*/
+
+	/*добавляем отступ от логотипа до меню*/
+	/*а точнее отступы между элементами, которые лежат в header*/
+	justify-content: space-between;
+}
+
+.backgrounds img {
+	height:715px; 
+	width:1200px;
+}
+
+.h1 {
+	display: inline-block;
+}
+
+.img img {
+	height:533px; 
+	width:1050px;
+}
+
+.img1 {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.img1 + .img1 {
+padding: 0 10px;	
+}
+
+.clearfix {
+	clear: both;
+}
+
+.img2 img{
+	height:550px;
+	width:600px;
+}
+
+.img5 img {
+max-width: 100%;
+margin: auto;
+}
+
+.img1 img{
+	width: 100%;
+	height: 580px;
+}
+
+.img3 {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.img3 img{
+	width: 100%; 
+}
+
+.img3 + .img3 {
+	padding: 0 10px;
+}
+
+.img7 img{
+	width: 950px;
+}
+
+.img2, .text2{
+	display: inline-block;
+}
+
+.img4 img {
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+
+.img4 {
+	display: inline-block;
+	float: left;
+}
+
+.img4 img {
+	width: 100%;	
+}
+
+.columns {
+	column-count: 4;
+	column-gap: 5px;
+}
+
+.img4 + .img4 {
+	padding: 0 10px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	height: 148px;
+	width: 163px;
+	display: inline-block;
+}
+
+.nav-link{
+	margin: 48px;
+	align-items: center;
+	text-shadow: 2px 2px 3px black;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-link:hover {
+	/*тут стили, которые нужны для ссылок в шапке при наведении*/
+}
+
+.text2 {
+	font-size: 75px;
+}
+
+.topnav {
+	display: inline-block;
+	align-items: center;
+
+}
+
+.columns:hover img:not(:hover){
+	opacity: 0.4;
+	transition:3s;
+}
+
+.columns img {
+	transition:3s;
+}
