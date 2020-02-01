@@ -148,3 +148,42 @@ margin: auto;
 .columns img {
 	transition:3s;
 }
+
+.img9 img {
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+
+.img9 {
+	display: inline-block;
+	float: left;
+	max-width: 100%;
+
+}
+
+.img9 img {
+	width: 100%;
+}
+
+
+.img9 + .img9 {
+	padding: 0 10px;
+}
+
+
+.columns2 {
+	column-count: 4;
+	column-gap: 5px;
+}
+
+
+.text6 {
+	color: red;
+	align-items: center;
+	text-align: center;
+}
+
+.button {
+	text-align: center;
+}
