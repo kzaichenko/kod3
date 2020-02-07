@@ -26,6 +26,7 @@ header {
 
 .h1 {
 	display: inline-block;
+	align-items:center;
 }
 
 .img img {
@@ -126,6 +127,13 @@ margin: auto;
 	color: black;
 }
 
+.nav-link2 {
+	margin: 48px;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+}
+
 .nav-link:hover {
 	/*тут стили, которые нужны для ссылок в шапке при наведении*/
 }
@@ -187,3 +195,25 @@ margin: auto;
 .button {
 	text-align: center;
 }
+
+ footer {
+ 	background-color: red;
+ 	padding: 10px;
+ }
+
+ footer a {
+ 	height: 20px;
+ 	color:white;
+ 	font-weight: bold;
+ 	width: auto;
+ }
+ .footer {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	max-width: 1000px;
+ 	margin: auto;
+ }
+
+ .text9 {
+ 	color: white;
+ }
