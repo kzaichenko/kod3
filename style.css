@@ -135,6 +135,9 @@ margin: auto;
 }
 
 .nav-link:hover {
+	border-radius: 5px;
+	border:2px solid pink;
+	padding: 8px; 
 	/*тут стили, которые нужны для ссылок в шапке при наведении*/
 }
 
@@ -217,3 +220,22 @@ margin: auto;
  .text9 {
  	color: white;
  }
+
+ .search-form {
+ 	width: 27%;
+ 	background-color: #000000;
+ 	margin-bottom: 11px;
+ 	display: flex;
+ }
+
+ .search-submit {
+ 	background-image: url('img/search1.png');
+ 	width:24px;
+ 	height: 24px;
+ 	background-size: contain;
+ 	background-color: transparent;
+ 	border: none;
+ 	outline: none;
+ 	padding: 12px;
+ }
+
