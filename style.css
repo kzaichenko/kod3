@@ -120,7 +120,11 @@ margin: auto;
 	display: inline-block;
 }
 
-.nav-link{
+.nav-link:first-child {
+	margin-left: 48px;
+}
+
+.nav-link:first-child, .nav-link + .nav-link {
 	margin: 48px;
 	align-items: center;
 	text-shadow: 2px 2px 3px black;
@@ -260,4 +264,8 @@ header {
 /*20200208: выравниваем все блоки по-центру*/
 main {
 	text-align: center;
+}
+
+.mobile-nav {
+	display: none;
 }
