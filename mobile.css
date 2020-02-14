@@ -46,4 +46,9 @@ margin: auto;
 		columns: 2;
 	}
 
+	.logo {
+	display: inline-block;
+}
+
+
 }
