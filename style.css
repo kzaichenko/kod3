@@ -9,20 +9,16 @@
 	margin: auto;
 }
 
-/* стили для шапки*/
 header {
-	display: flex;/*почему-бы и нет, удобно центрировать*/
-	align-items: center;/*а теперь все элементы выравниваем по центру*/
-
-	/*добавляем отступ от логотипа до меню*/
-	/*а точнее отступы между элементами, которые лежат в header*/
+	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
 .backgrounds img {
-	max-height: 715px;/*20200208: максимальная ширина (не фиксированная)*/
-    width: 100%;/*20200208: картинка растянется на 100% экрана*/
-    max-width: 1200px;/*20200208: но не более 1200 точек*/
+	max-height: 715px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .h1 {
@@ -130,13 +126,10 @@ margin: auto;
 	text-shadow: 2px 2px 3px black;
 	text-decoration: none;
 	color: black;
-	/*20200208: чтобы ссылки не "прыгали" при наведении*/
 	border:2px solid transparent;
 	padding: 8px;
-	/*20200208: чтобы ссылки не "сползали" на телефоне*/
 	max-width: 25%;
 	display: flex;
-	/*20200208: чтобы ссылки было видно на телефоне*/
 	font-size: 24px;
 }
 
@@ -150,21 +143,19 @@ margin: auto;
 .nav-link:hover {
 	border-radius: 5px;
 	border:2px solid pink;
-	/*тут стили, которые нужны для ссылок в шапке при наведении*/
 }
 
 .text2 {
 	font-size: 75px;
-	/*20200208: на странице все элементы выравнены по центру, поэтому текст смещаем влево (как и было)*/
 	text-align: left;
 }
 
 .topnav {
-	display: inline-flex;/*20200208: чтобы ссылки не "сползали" на телефоне*/
+	display: inline-flex;
 	align-items: center;
 }
 
-/*20200208: чтобы было понятно, что это шапка*/
+
 header {
 	background-color: #FFEEEE;
 }
@@ -211,7 +202,6 @@ header {
 	color: red;
 	align-items: center;
 	text-align: center;
-	/*20200208: отступ от заголовков сверху, для красоты*/
 	margin-top: 10px;
 }
 
@@ -220,7 +210,6 @@ header {
 }
 
  footer {
- 	/*20200208: отступ от сайта до подвала, чтобы не "прилипал"*/
  	margin-top: 20px;
  	background-color: red;
  	padding: 10px;
@@ -261,7 +250,6 @@ header {
  	padding: 12px;
  }
 
-/*20200208: выравниваем все блоки по-центру*/
 main {
 	text-align: center;
 }
