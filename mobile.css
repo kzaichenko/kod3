@@ -1,8 +1,6 @@
 @media all and (max-width: 400px) {
 	.topnav {
 		display: none;
-		display: inline-flex;
-	    align-items: center;
 	}
 	.mobile-nav {
 		display: flex;
@@ -34,4 +32,18 @@
 	font-size: 45px;
 	text-align: left;
 }
+.img7 img{
+	width:350px;
+	margin: auto;
+}
+
+.img6 img {
+width: 350px;
+margin: auto;
+}
+
+.columns {
+		columns: 2;
+	}
+
 }
