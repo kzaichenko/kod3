@@ -21,6 +21,8 @@ header {
     max-width: 1200px;
 }
 
+
+
 .h1 {
 	display: inline-block;
 	align-items:center;
@@ -46,8 +48,9 @@ padding: 0 10px;
 }
 
 .img2 img{
-	height:550px;
-	width:600px;
+	max-height: 715px;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .img5 img {
